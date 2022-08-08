@@ -44,8 +44,8 @@
     display:flex;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Source Code Pro', monospace;
-R
+    font-family: 'fira sarif', sans-serif;
+
 }
 .hello{
     font-size: 80px;
