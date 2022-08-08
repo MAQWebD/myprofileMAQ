@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+.sidebar{
+    background-color:grey;
+    width: 150px;
+    height: 100vh;
+    font-family: 'fira sans', sans-serif;
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: Bold;
+    padding: 22px 0;
+}
+.sidebar nav li a{
+    text-decoration:None;
+    color:black;
+}
+.sidebar nav li a:hover{
+    color:white; 
+}
+.main{
+    background-color: white;
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    height: 20vw;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.Mdinfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+R
+}
+.hello{
+    font-size: 80px;
+    
+
+}
+.name{
+    Font-size:60px;
+    font-weight: Bold;
+    font-family: 'fira sans', sans-serif;
+
+}
+
+.moreabout{
+    /* margin-top:30px; */
+    font-size:30px;
+    font-weight: 50;
+    font-family: 'fira sans', sans-serif;
+}
+
+.btn{
+    margin-top: 3px;
+    padding: 7px;
+    border-radius: 80px;
+    color:black ;
+    background-color: white;
+    font-weight: Bold;
+    font-size: 15px;
+    margin: 0 8 px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size:2px;
+}
+.btn:hover{
+    color:red;
+    background-color: white;
+}
+
+.Mdpic img{
+    width: 300px;
+    height: 375px;
+}
+
+.contactform{
+    padding:0 34px;
+    padding-top: 14px;
+    font-family: 'fira sans', sans-serif;
+}
+.contactform h1{
+    font-family: 'fira sans', sans-serif;
+    text-align: center;
+    Padding:
+}
+.contactform form div{
+    padding:10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width:26vw;
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin:3px 0;
+}
+
+.h1{
+font-family: 'fira sans',sans-serif;
+margin: 23px;
+}
+.p{
+    font-family: 'fira sans', sans-serif;
+}
+.intro h2{
+    font-family: 'fira sans',sans-serif;
+    margin:12px;
+}
+.intro p{
+    font-family: 'fira sans',sans-serif;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display:flex;
+    alig-item:center;
+    font-family: 'fira sans',sans-serif;
+    font-weight: 900; 
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color:crimson;
+    border: 2px solid black;
+}
+
+.t20{
+    width:125px;
+    background-color: aqua;
+}
